@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://peter.grman.at" # the base hostname & protocol for your site
 twitter_username: grmanp
 github_username:  pgrm
+permalink: "/:title/"
 
 # Build settings
 markdown: kramdown
@@ -18,7 +19,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: /:title/
   -
     scope:
       path: ""
