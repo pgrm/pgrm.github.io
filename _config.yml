@@ -8,6 +8,7 @@ url: "http://peter.grman.at" # the base hostname & protocol for your site
 twitter_username: grmanp
 github_username:  pgrm
 permalink: "/:title/"
+google_analytics_id: UA-40793217-1
 
 # Build settings
 markdown: kramdown
