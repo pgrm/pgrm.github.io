@@ -31,4 +31,4 @@ After getting the following error:
 
 ...and spending roughly an hour on the Internet I found following link: [http://support.microsoft.com/kb/257757/en-us](http://support.microsoft.com/kb/257757/en-us)
 
-Since non of the mentioned solutions worked for me in Word 2012 I decided to let Interop be and switch to OpenXML. [Here you can read how to do the same function to replace bookmarks in OpenXML]({% post_url 2013-02-26-handling-bookmarks-in-openxml-word %}) with the [OpenXML SDK](http://www.microsoft.com/en-us/download/details.aspx?id=30425)
+Since non of the mentioned solutions worked for me in Word 2012 I decided to let Interop be and switch to OpenXML. [Here you can read how to do the same function to replace bookmarks in OpenXML]({% post_url 2013/2013-02-26-handling-bookmarks-in-openxml-word %}) with the [OpenXML SDK](http://www.microsoft.com/en-us/download/details.aspx?id=30425)
