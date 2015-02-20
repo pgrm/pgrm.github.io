@@ -71,4 +71,4 @@ As you can see, the directive is very easy and straight forward to start with. T
 
 And if you want your tiles to organise automatically like in Google+ for instance, you can combine it with [Masonry](http://masonry.desandro.com/) and this awesome and very lightweight directive to use Masonry together with AngularJS: https://github.com/klederson/angular-masonry-directive.
 
-I've also created a plunk so you can directly play with a sample version: http://plnkr.co/edit/Ffgrxq?p=preview Feel free to fork it and post your variations in the comments below. Looking forward to many different tiles :)
+I've also created a plunk so you can directly play with a sample version: [http://plnkr.co/edit/Ffgrxq?p=preview](http://plnkr.co/edit/Ffgrxq?p=preview). Feel free to fork it and post your variations in the comments below. Looking forward to many different tiles :)
