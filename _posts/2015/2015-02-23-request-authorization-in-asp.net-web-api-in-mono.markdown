@@ -7,7 +7,7 @@ tags:
   - Mono
 ---
 
-Few days ago I was struggling to set up authorization on requests to my Web API. The major Problem was missing sessions. You can read here more: {% post_url /2015/2015-02-21-request-authorization-in-asp.net-web-api %}. After I set it up, it was running and everything seemed great, I found out that it didn't work in [mono](http://www.mono-project.com/). So back to square one (or [StackOverflow](http://stackoverflow.com/questions/28667957/access-session-in-asp-net-web-api-in-mono)). It took me a while, until I discovered this 3 years old bug report:
+Few days ago I was struggling to set up authorization on requests to my Web API. The major Problem was missing sessions. You can read here more: [Request Authorization in ASP.NET Web API]({% post_url /2015/2015-02-21-request-authorization-in-asp.net-web-api %}). After I set it up, it was running and everything seemed great, I found out that it didn't work in [mono](http://www.mono-project.com/). So back to square one (or [StackOverflow](http://stackoverflow.com/questions/28667957/access-session-in-asp-net-web-api-in-mono)). It took me a while, until I discovered this 3 years old bug report:
 
 > [SessionStateBehaviour in HttpContext is ignored](https://bugzilla.xamarin.com/show_bug.cgi?id=3012)
 
