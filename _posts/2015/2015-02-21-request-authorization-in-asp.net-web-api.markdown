@@ -85,3 +85,5 @@ public class PermissionsAttribute : AuthorizeAttribute
     }
 }
 {% endhighlight %}
+
+However, turns out, this solution doesn't work in mono. There is a new post about that particular problem: {% post_url /2015/2015-02-23-request-authorization-in-asp.net-web-api-in-mono %}

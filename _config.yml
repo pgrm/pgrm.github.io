@@ -2,7 +2,7 @@
 title: Blog 42
 email: peter.grman@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about solutions to challenges, I encounter during my studies & work
+  A blog about solutions to challenges, I encounter during my studies & work.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://peter.grman.at" # the base hostname & protocol for your site
 twitter_username: grmanp
