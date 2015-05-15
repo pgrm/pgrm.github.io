@@ -85,17 +85,17 @@ Let's try to transform it into TypeScript. I won't be adding references as I ass
 
           var party = Parties.findOne(partyId);
             if (!party)
-              throw new Meteor.Error(404, "No such party");
+              throw new Meteor.Error('404', "No such party"); // Meteor.Error actually expects 2 strings, so 404 needs to be in quotes
             if (party.owner !== me.userId) // we are using `me` here for type checking
-              throw new Meteor.Error(404, "No such party");
+              throw new Meteor.Error('404', "No such party"); // Meteor.Error actually expects 2 strings, so 404 needs to be in quotes
             if (party.public)
-              throw new Meteor.Error(400,
+              throw new Meteor.Error('400', // Meteor.Error actually expects 2 strings, so 400 needs to be in quotes
                 "That party is public. No need to invite people.");
 
           if (userId !== party.owner && ! _.contains(party.invited, userId)) {
             Parties.update(partyId, { $addToSet: { invited: userId } });
 
-            var from = contactEmail(Meteor.users.findOne(this.userId)); // one more time `me`
+            var from = contactEmail(Meteor.users.findOne(me.userId)); // one more time `me`
             var to = contactEmail(Meteor.users.findOne(userId));
             // ... the rest doesn't change ...
           }
