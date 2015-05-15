@@ -117,9 +117,9 @@ But the tutorial isn't for professionals, still you need to understand something
     }
     var m = new MyMethods();
 
-Depending on how we will use it now, the of `this` inside our invite method will change:
+Depending on how we will use it now, `this` inside our invite method will change:
 
-    m.invite('asdf', 'qwer); // `this` is `m`, as it's supposed to be
+    m.invite('asdf', 'qwer'); // `this` is `m`, as it's supposed to be
 
     Meteor.Methods({
         invite1: m.invite, // `this` is the special object, provided by Meteor with properties like the userId (IMeteorMethodThis from above)
@@ -127,7 +127,7 @@ Depending on how we will use it now, the of `this` inside our invite method will
         invite3: m.invite.bind(m) // `this` is again `m`
     });
 
-The problem here is, that you can only keep one `this`, either the instance of `MyMethods`, or the object provided by Meteor. the only solution, I've found to make code like above work (having a class with all the methods), would be having `invite2` as a normal function and than modifying either the object `m` or having another function, where the current `userId` (`this.userId`) could be passed on. Here and example:
+The problem here is, that you can only keep one `this`, either the instance of `MyMethods`, or the object provided by Meteor. The only solution, I've found to make code like above work (having a class with all the methods), would be having `invite2` as a normal function and than modifying either the object `m` or having another function, where the current `userId` (`this.userId`) could be passed on. Here an example:
 
     class MyMethods {
         invite(currentUserId: string, partyId: string, userId: string) {
