@@ -169,4 +169,4 @@ Additionally I've also created a small script, where you can see the confusing b
     npm install
     npm start
 
-to see it running. `npm start` compiles the `index.ts` and runs it immediately after. You can also see the generated JavaScript code in the compiled `index.js`. Have fun with it, and hopefully it will save you some trouble.
+to see it running. `npm start` compiles the `index.ts` and runs it immediately after. You can also see the generated JavaScript code in the compiled `index.js`. You can find the explanations on why, which line prints what as comments in the TypeScript code. Have fun with it, and hopefully it will save you some trouble.
