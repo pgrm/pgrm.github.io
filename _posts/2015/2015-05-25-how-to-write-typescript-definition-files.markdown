@@ -413,7 +413,7 @@ we'll make
        drawnItems.addLayer(layer);
     });
 
-We still need to check strings and cast variables, but I think it is better to understand the library now.
+We still need to check strings and cast variables, but I think it is better to understand the library now. You can see the final code, to compare, here: https://gist.github.com/pgrm/2b9e25ebe3a53188135d#file-leaflet-draw-d-ts
 
 # Final words
 
