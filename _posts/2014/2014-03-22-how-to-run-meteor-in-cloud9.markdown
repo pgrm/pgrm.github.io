@@ -1,6 +1,8 @@
 ---
 title: "How to run Meteor in Cloud9"
-tags: 
+redirect_from:
+  - /how-to-run-meteor
+tags:
   - Online-Development
   - Cloud9
   - Meteor
@@ -16,7 +18,7 @@ Meteor can't be installed on cloud9, as it is described on the website, you need
     cd meteor
     git checkout master
     ./meteor
-    
+
 Now you have the lastest release with all dependencies downloaded. Change to your working directory, where you use meteor to proceed...
 
 ## Second Problem:
@@ -36,26 +38,26 @@ will show you an error like:
 Meteor already uses the `PORT` environment variable, but instead of `IP` it uses `BIND_IP` so, by calling
 
     export BIND_IP=$IP
-    
+
 we should solve it, but that's not enough. There is a bug in meteor, which creates a proxy on `localhost` instead of `BIND_IP`.
 
 To fix this we go to:
 
     cd ~/meteor/tools/
     vim run-proxy.js
-    
+
 In line 94 (`:94`) you see:
 
     self.server.listen(self.listenPort, function () {
-    
+
 There is a second parameter, the `BIND_IP` missing. Replace the line by the following:
 
     self.server.listen(self.listenPort, process.env.BIND_IP, function () {
-    
+
 While we are in this file, there are two more errors on lines 170 (`:170`) and 181 (`:181`). The lines look the same:
 
     target: 'http://127.0.0.1:' + self.proxyToPort
-    
+
 Replace both of them with:
 
     target: 'http://' + process.env.BIND_IP + ':' + self.proxyToPort
@@ -64,7 +66,7 @@ Now Meteor is running from the correct IP but not the correct PORT. Even you can
 
     cd ~/meteor/tools
     vim run-all.js
-    
+
 In line 24 (`:24`) you can see:
 
     var listenPort = options.port;
@@ -73,15 +75,15 @@ We'll replace `options.port` by `process.env.PORT`. Replace the line by the foll
 
     var listenPort = process.env.PORT;
 
-Going back to your project and running 
+Going back to your project and running
 
     ~/meteor/meteor
-    
+
 you should have now a problem with the MongoDB...
 
 ## Last Problem:
 
-### MongoDB 
+### MongoDB
 
 Now I didn't figure out how to run MongoDB inside Cloud9, but it isn't necessary. You can instead create a free account on [MongoHQ](https://www.mongohq.com/) and have your development database there. 512MB should be enough for most of the projects, it's definitely enough for me, so far. (They don't pay me anything for writing this.)
 
@@ -92,16 +94,16 @@ Once you have your database, you can see the connection string in your admin pan
 Meteor uses the environment variable `MONGO_URL` for this, so just run:
 
     export MONGO_URL=mongodb://<user>:<password>@oceanic.mongohq.com:10014/<your-db-name>
-    
+
 ## Conclusion:
 
 After you have modified `meteor/tools/run-proxy.js` and added `process.env.BIND_IP`, you might want to add the following two lines to your `.bashrc`:
 
     export BIND_IP=$IP
     export MONGO_URL=mongodb://<user>:<password>@oceanic.mongohq.com:10014/<your-db-name>
-    
+
 Now open a new terminal (or run `source ~/.bashrc`) and you are good to go. Meteor will from now on work with the command
 
     ~/meteor/meteor
-    
+
 To access your, successfully running, application, you can go to `https://<project-name>.<user-id>.c9.io`.
