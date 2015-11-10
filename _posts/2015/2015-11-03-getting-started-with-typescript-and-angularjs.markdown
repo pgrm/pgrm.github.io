@@ -1,5 +1,7 @@
 ---
-title: "Getting Started With TypeScript and AngularJS (1)"
+title: "Getting Started With TypeScript and AngularJS"
+redirect_from:
+  - /getting-started-with-typescript-and-angularjs-1/
 tags:
   - TypeScript
   - AngularJS
@@ -81,7 +83,7 @@ Open the console and go to the new directory where you want to create the applic
 In the subsequent text-based assistant:
 
 1. Choose the latest AngularJS version (no fun if it isn't the latest thing, or?)
-2. Keep all modules selected (you can uninstall those unused once later on)
+2. Keep all modules selected (you can uninstall those unused ones later on)
 3. Choose a jQuery 2.x, as some Angular modules require jQuery (and we don't care about old IE browsers anymore).
 4. Choose however you want to access the server. I prefer $http but ngResources, for instance, gives you a lot of additional features for free.
 5. I prefer the UI Router, but the traditional angular router is just as good for simple applications and the new angular 2 router should be awesome.
@@ -272,3 +274,7 @@ And, in the end, everywhere, where `awesomeThings` are being accessed in `main.h
 Add main in front of awesomeThings and everything works now:
 
     <md-card ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
+
+------
+
+Ok, now you have a great template and can start building your own application. However, in case you want to understand more about the underlying gulp build-system, which provides all the magic from typing some TypeScript code, to seeing live updates on the server, you should read the second article in this series, **[Understanding the Gulp Build-System for TypeScript and AngularJS]()**
