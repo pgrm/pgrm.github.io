@@ -1,7 +1,7 @@
 ---
 title: "How to run Meteor in Cloud9"
 redirect_from:
-  - /how-to-run-meteor
+  - /how-to-run-meteor/
 tags:
   - Online-Development
   - Cloud9

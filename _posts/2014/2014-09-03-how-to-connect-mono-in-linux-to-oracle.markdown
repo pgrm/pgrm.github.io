@@ -1,7 +1,7 @@
 ---
 title: "How to connect Mono in Linux to Oracle"
 redirect_from:
-  - /how-to-connect-mono
+  - /how-to-connect-mono/
 tags:
   - Linux
   - Oracle
