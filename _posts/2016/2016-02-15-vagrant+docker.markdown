@@ -5,10 +5,10 @@ tags:
   - Docker
 ---
 
-# Step 0 - rant
-
 Be honest with yourself, how many applications and services do you have running on your machine right now?
 And how many do you really need?
+
+# Step 0 - rant
 
 2 weeks ago, when I started my new job, I remembered the times when I just had to fill up my
 development machine with dozens of seemingly useless services. And of course I wouldn't remember all
