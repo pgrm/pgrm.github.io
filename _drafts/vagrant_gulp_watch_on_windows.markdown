@@ -1,0 +1,3 @@
+use vagrant rsync / auto sync to sync files from local folder to linux machine
+
+this is necessary when using gulp/grunt - watch or jekyll serve, ...
