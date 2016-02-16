@@ -116,7 +116,7 @@ and change it to look like this:
     end
 
 This is great. But what about my MacBook? I don't want to use VirtualBox.
-I'm already paying for Parallels and it has way more features. That's not a problem. Our base image
+I'm already paying for Parallels and it has way more features. That's not a problem. The base image
 we chose (`box-cutter/ubuntu1404-docker`) has also an image for Parallels and Vagrant can choose whichever is installed.
 
 At the beginning of the Vagrantfile right below
@@ -146,7 +146,7 @@ a clone of the base image. This makes starting up fresh Vagrant VMs in Parallels
 # Why not just using [boot2docker](https://github.com/boot2docker/boot2docker)?
 
 First of all, the [Windows installer is deprecated](https://github.com/boot2docker/windows-installer/releases)
-and replaced with the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), but ok, than the question changes just slightly.
+and replaced with the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), but ok, then the question changes just slightly.
 
 Secondly, I started using Vagrant + Docker before boot2docker became popular. That's great but doesn't answer, why I didn't change.
 
