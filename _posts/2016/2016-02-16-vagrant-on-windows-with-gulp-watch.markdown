@@ -7,16 +7,18 @@ tags:
 
 As you might have guessed from my previous posts I love Vagrant and Gulp. I think those tools are
 awesome. They make my life much easier by either packing everything into a VM which I can destroy
-and recreate whenever things go south (Vagrant), or automate every little bit I need (Gulp).
-However, until lately, I didn't use them together. Vagrant was there to get my servers (mostly DB)
+and recreate whenever things go south (Vagrant), or automating every little bit I need (Gulp).
+However, until recently, I didn't use them together. Vagrant was there to get my servers (mostly DB)
 up and running and Gulp was directly on my machine.
+
+**TL;DR;** - skip down to **Vagrant RSync Problems and Solutions** and further **Solutions**.
 
 # Why file watchers and Vagrant don't like each other?
 
 Well, it's not Vagrant directly, it's VMs in general. `gulp-watch`, `jekyll serve` or `meteor`
 need to watch your file system in order to detect changes and start acting upon them. This works
 usually great. Usually meaning, until you want to run those tools inside a VM and access files
-stored directly on you machine. Vagrant does a lot of magic to keep your local folder in sync
+stored directly on your machine. Vagrant does a lot of magic to keep your local folder in sync
 with the VM, but ultimately it chooses one of these types to sync the folders:
 
 ## [VirtualBox](https://www.vagrantup.com/docs/synced-folders/virtualbox.html)
@@ -24,7 +26,7 @@ with the VM, but ultimately it chooses one of these types to sync the folders:
 This is default when you are running Vagrant with a VirtualBox and it works great. They made this
 work when I couldn't really set it up in VirtualBox directly and something was breaking all the time.
 This is awesome and you probably rarely, if ever have problems with it. That is, until you try
-using `gulp-watch` or similar from the VM to watch changes you are performing locally. Because,
+using `gulp-watch` or similar from the VM to watch changes you are performing locally, as
 file watchers don't work in this configuration. So let's see what else Vagrant is offering.
 
 ## [NFS](https://www.vagrantup.com/docs/synced-folders/nfs.html)
@@ -71,12 +73,12 @@ file system, not the host machine anymore. It sounds great, soon you'll find out
 # Vagrant RSync Problems and Solutions
 
 We already started with the problems. It's an extra command which needs to keep running all the time.
-It's not a big deal, but it just doesn't seem right. Unfortunately this is not everything:
+It's not a big deal, but it just doesn't seem right. Unfortunately, this is not everything:
 
 ## Problems
 
 - RSync works only one way. There is no way to get the files out of the VM again with this configuration.
-  Of course you can still get them out, the changes done inside the VM just won't end up magically on your local machine.
+  Of course, you can still get them out, the changes done inside the VM just won't end up magically on your local machine.
 - RSync tries to have an exact clone of your host folder on the VM. This sounds good at first,
   until you realize what that actually means:
 
@@ -88,9 +90,9 @@ It's not a big deal, but it just doesn't seem right. Unfortunately this is not e
   1. You save a change to a file
   2. `rsync.exe` picks up this change on your local machine and updates the destination
   3. These changes are written to the file system on the VM
-  4. Now only can `gulp-watch` or the tool you are running, pick up these changes and start processing them.
+  4. Now only `gulp-watch` or the tool you are running can pick up these changes and start processing them.
 
-## The Solutions
+## Solutions
 
 I don't have a solution to everything and for someone with a lot of experience with RSync, those problems
 mentioned above wouldn't really qualify as such. Unfortunately, I didn't have too much experience
@@ -110,4 +112,4 @@ which I don't want to get deleted inside my VM.
 
 That's really it. This is how you can make RSync work for you and enjoy some of the packages which don't
 yet quite work on Windows natively inside a VM without sacrificing watchers. It was just very painful
-to get to this state of knowledge. Hope I could save some pain.
+to get to this state of knowledge. Hope I could save you some pain.
