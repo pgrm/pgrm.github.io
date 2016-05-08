@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/pgrm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://peter.grman.at
+  * I am pgrm (https://keybase.io/pgrm) on keybase.
+  * I have a public key with fingerprint 8AC2 C7F7 9261 02B0 F02B  5C7C 6BA0 2D65 7EA8 466C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101785e2048fb2be647cd08dc02e493cfad55d312fc7f45249561f53002ad4217720a",
+            "fingerprint": "8ac2c7f7926102b0f02b5c7c6ba02d657ea8466c",
+            "host": "keybase.io",
+            "key_id": "6ba02d657ea8466c",
+            "kid": "0101785e2048fb2be647cd08dc02e493cfad55d312fc7f45249561f53002ad4217720a",
+            "uid": "a8c655dbfccf26cfc6097e0c7264d719",
+            "username": "pgrm"
+        },
+        "service": {
+            "hostname": "peter.grman.at",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1462709642,
+    "expire_in": 157680000,
+    "prev": "53c024545467e5681bb8e8317df99d4537cbd1ea7dafabb9cb44afdb9d8005b9",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJbSBVBGMePlYWC0p2ojFjLsuy0O2d3ZvdQPkhmZVGRdBVOc9vjou4e
+96xa2JWiQguKFKMofBUj6Gb1kHSyKCisyAq6UinpS4Gh+aDWrORbj83ADPPN7/+f
+7/uYB2njA6lJec2fdg7PLMpJepKorwxsW76stkYiDtsrhWukUj668TLG416k1GJS
+WJIVWUG6xoGs6iYBhEMVUSbrjMqAq0aImphpGgspwKTIVDWgGhpUTC0kywAzFSgI
+ARlLOZJp2VHuxlzL9oStjikQPDIAVGRAZFMsGkUUEiwDBjXEsa5CSIWwxIn7CpEc
+wXEetBwRE4fIaHr/4P9z3pWjdlinUODEpNQEkJoUygbiMkUAqgwphg/GuWvjci7o
+WNQtl/bnSCJSZVHuN9WvYuyWe9wNCgTbQewJZcx1PIc6ZeKuxPNiYV/q7Y35bDUn
+kb8uEWLZTDRRCKq4G7ccWworgqSe5dsqKgRINqAKciS+J2a5PGL5hIagLovhP8Or
+hKUWEi1QNTEh4hrUFUJ0rocUxEzDYKoWQpQwhWPEsIkJMShRVWwyYjDhoxG/1Div
+sB0prIo0cVRYxq2ojb1Kl0v7798rnhBISg1MTB7nf65AasrksS+3MTRpeN7C3Fkj
+H3NvL9+6b61dVx/MXNO9p3Nx6+CUqnYnubd48Oqda5caOy6cnlv9uXzB1fYPM3+j
+vkM9zS9P9WR/Of61eyjr6bO61jerYpvOVLYU1c55uNL59vOs07tqXE3HzcsDt9ve
+9kkbs5bSqfN33Mo7E01/kaYV/Pqy73Ahmb8QZt4N6BsSxzrqtn3PaGjZ3nNkpL02
+val//bqC3fnNrcmv6qQZ8F2/cevRvfTgvJSjPY3XpfFDK6Z33uibsaTrILtSca4h
+3l+wABR3bMnQHg4UWsPV+a/fH8i6/vhH76aK5w/azp+u3rW6q+3Ry0TqZg9Puxhd
+ZBRPPnVidqJzCehPmdKUfVL/A8kSQAE=
+=5U+j
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pgrm
+
+==================================================================
