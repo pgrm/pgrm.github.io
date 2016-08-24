@@ -1,11 +1,11 @@
 ---
-layout: post
 title: Hyper-V error "IDE/ATAPI Account does not have sufficient privilege to open
   attachment..."
-date: '2012-11-22T11:13:00.002+01:00'
+date: 2012-11-22 10:13:00.002000000 Z
 tags:
 - Administration
 - Hyper-V
+layout: post
 modified_time: '2012-11-22T11:14:29.242+01:00'
 blogger_id: tag:blogger.com,1999:blog-8459046186574607112.post-4855181382494073696
 blogger_orig_url: http://emptycode.blogspot.com/2012/11/hyper-v-error-ideatapi-account-does-not.html

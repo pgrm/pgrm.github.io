@@ -1,9 +1,10 @@
 ---
-title: "SQLiteException: no such table - in Android"
-tags: 
-  - Android
-  - SQLite
-  - Exceptions
+title: 'SQLiteException: no such table - in Android'
+date: 2015-01-20 00:00:00 Z
+tags:
+- Android
+- SQLite
+- Exceptions
 ---
 
 I was just struggeling for a while trying to help with an Android app. I have almost no specific Android experience, but as the app is pretty basic, I thought - can't be that hard. The beginning seemed pretty easy and straight forward, until we stumbled upon this exception:

@@ -1,8 +1,9 @@
 ---
-title: "The Difference in (Un)Zip-Performance"
-tags: 
-  - Windows 8
-  - Performance
+title: The Difference in (Un)Zip-Performance
+date: 2014-01-13 00:00:00 Z
+tags:
+- Windows 8
+- Performance
 ---
 
 I got a nice present for Christmas, last year - a Windows 8 Tablet/Notebook convertible. With the extra battery in the keyboard and an Intel-Atom SoC the power lasts easily for 12h or continues use. Of course, since the only component which can drain the battery is the 10" touchscreen.

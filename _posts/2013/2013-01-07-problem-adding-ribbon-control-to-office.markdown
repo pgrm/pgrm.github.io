@@ -1,13 +1,13 @@
 ---
-layout: post
 title: Problem Adding Ribbon-Control to Office AddIn Projects
-date: '2013-01-07T06:48:00.000+01:00'
+date: 2013-01-07 05:48:00 Z
 tags:
 - Ribbon
 - Namespaces
 - C#
 - Office AddIn
 - ".Net"
+layout: post
 modified_time: '2013-01-07T06:48:12.464+01:00'
 blogger_id: tag:blogger.com,1999:blog-8459046186574607112.post-4714018850222278104
 blogger_orig_url: http://emptycode.blogspot.com/2013/01/problem-adding-ribbon-control-to-office.html

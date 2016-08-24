@@ -1,9 +1,10 @@
 ---
-title: "First steps with Apache-Giraph"
-tags: 
-  - First steps
-  - Apache-Giraph
-  - graph-processing
+title: First steps with Apache-Giraph
+date: 2014-01-27 00:00:00 Z
+tags:
+- First steps
+- Apache-Giraph
+- graph-processing
 ---
 
 I used [Apache Giraph](http://giraph.apache.org/) during a project for my studies. There is a great [official Quick Start-Tutorial](http://giraph.apache.org/quick_start.html) on how to set up Giraph on top of Apache Hadoop 0.20.203.0-RC1 and run your first example application. When you follow it, you will have a running environment where you can test your code. Still, you won't have any idea, how to write it (at least I didn't). 

@@ -1,45 +1,45 @@
-# Site settings
+---
 title: Blog 42
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+  values:
+    author: Peter
+    greeting: Happy Coding!
 email: peter.grman@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: |
   A blog about solutions to challenges, I encounter during my studies & work.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://peter.grman.at" # the base hostname & protocol for your site
+baseurl: ''
+url: http://peter.grman.at
 twitter_username: grmanp
-github_username:  pgrm
+github_username: pgrm
 permalink: "/:title/"
 google_analytics_id: UA-40793217-1
 disqus_shortname: blog42
-
-# Build settings
 markdown: kramdown
-
 gems:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jekyll-redirect-from
-  - jemoji
-
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-redirect-from
+- jemoji
 jekyll-mentions:
   base_url: https://twitter.com
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-    values:
-      author: "Peter"
-      greeting: "Happy Coding!"

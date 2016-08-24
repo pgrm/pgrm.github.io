@@ -1,9 +1,10 @@
 ---
-title: "TypeScript Development in Practice"
+title: TypeScript Development in Practice
+date: 2015-01-27 00:00:00 Z
 tags:
-  - TypeScript
-  - NodeJS
-  - Gulp
+- TypeScript
+- NodeJS
+- Gulp
 ---
 
 I'm using [TypeScript](http://www.typescriptlang.org) already since 2012 for rich client development on top of AngularJS. As the server was written in ASP.Net, we were using Visual Studio for Server and Client. I didn't have almost any experience in JavaScript, or Angular. So TypeScript's strong typing and the type definitions (`.d.ts`) for AngularJS and other frameworks, we were using, helped me a lot getting to know the functionality.

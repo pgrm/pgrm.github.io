@@ -1,11 +1,11 @@
 ---
-layout: post
 title: How To Stop a Storyboard
-date: '2012-08-12T10:50:00.004+02:00'
+date: 2012-08-12 08:50:00.004000000 Z
 tags:
 - XAML
 - C#
 - ".Net"
+layout: post
 modified_time: '2012-08-12T20:18:26.667+02:00'
 blogger_id: tag:blogger.com,1999:blog-8459046186574607112.post-4057643004216424340
 blogger_orig_url: http://emptycode.blogspot.com/2012/08/how-to-stop-storyboard.html

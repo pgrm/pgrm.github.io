@@ -1,9 +1,10 @@
 ---
-title: "How to Forward HTTP Requests in Windows 8 to a Hyper-V VM"
-tags: 
-  - Hyper-V
-  - Request Forwarding
-  - Windows 8
+title: How to Forward HTTP Requests in Windows 8 to a Hyper-V VM
+date: 2014-01-13 00:00:00 Z
+tags:
+- Hyper-V
+- Request Forwarding
+- Windows 8
 ---
 
 Complicated title — that's pretty much, what I was looking for on Google, yet with only little success. At first, I found some instructions for Windows Server 2008R2 and 2012. After modifying the search query, some instructions for exporting a network connection in VMWare showed up. There were plenty of tutorials, but none of them quite what I was looking for.

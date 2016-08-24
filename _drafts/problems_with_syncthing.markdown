@@ -1,3 +1,8 @@
+---
+title: Problems_with_syncthing
+date: 2016-08-24 09:21:49.693000000 Z
+---
+
 [I5V5M] 16:46:46 INFO: Compacting database: leveldb/table: corruption on table-footer (pos=2146254): bad magic number [file=302836.ldb]
 panic: leveldb/table: corruption on table-footer (pos=1920973): bad magic number [file=261155.ldb]
 [I5V5M] 16:46:46 OK: Ready to synchronize SigitaAndPeterPrivateShare (read-write)

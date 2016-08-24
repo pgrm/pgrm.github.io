@@ -1,11 +1,12 @@
 ---
-title: "Getting Started With TypeScript and AngularJS"
-redirect_from:
-  - /getting-started-with-typescript-and-angularjs-1/
+title: Getting Started With TypeScript and AngularJS
+date: 2015-11-03 00:00:00 Z
 tags:
-  - TypeScript
-  - AngularJS
-  - Gulp
+- TypeScript
+- AngularJS
+- Gulp
+redirect_from:
+- "/getting-started-with-typescript-and-angularjs-1/"
 ---
 
 > Almost a year ago, I wrote an introductory article about developing server and client applications in TypeScript - [TypeScript Development in Practice]({% post_url /2015/2015-01-27-typescript-development-in-practice %}). A lot of things have changed since then so this is a longer and much more thorough description of what is possible today:

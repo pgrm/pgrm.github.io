@@ -1,11 +1,12 @@
 ---
-title: "How to run Meteor in Cloud9"
-redirect_from:
-  - /how-to-run-meteor/
+title: How to run Meteor in Cloud9
+date: 2014-03-22 00:00:00 Z
 tags:
-  - Online-Development
-  - Cloud9
-  - Meteor
+- Online-Development
+- Cloud9
+- Meteor
+redirect_from:
+- "/how-to-run-meteor/"
 ---
 
 I've written a long question about this on Stack Overflow ([Meteor with cloud9](http://stackoverflow.com/questions/22561328/meteor-with-cloud9/)). Basically everything is written there, I just wanted to summarise it here and skip the useless things I found out.

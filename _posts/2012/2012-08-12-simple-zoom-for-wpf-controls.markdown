@@ -1,11 +1,11 @@
 ---
-layout: post
 title: Simple Zoom for WPF Controls
-date: '2012-08-12T18:07:00.000+02:00'
+date: 2012-08-12 16:07:00 Z
 tags:
 - XAML
 - C#
 - ".Net"
+layout: post
 modified_time: '2012-08-12T20:09:07.818+02:00'
 blogger_id: tag:blogger.com,1999:blog-8459046186574607112.post-2164028543641204210
 blogger_orig_url: http://emptycode.blogspot.com/2012/08/hallo-again-recently-i-had-to-implement.html

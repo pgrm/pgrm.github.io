@@ -1,8 +1,9 @@
 ---
-title: "Vagrant + Docker = Rainbows + Unicorns"
+title: Vagrant + Docker = Rainbows + Unicorns
+date: 2016-02-15 00:00:00 Z
 tags:
-  - Vagrant
-  - Docker
+- Vagrant
+- Docker
 ---
 
 Be honest with yourself, how many applications and services do you have running on your machine right now?

@@ -1,10 +1,11 @@
 ---
-title: "How I managed to connect from Mono in Linux to Oracle"
-tags: 
-  - Linux
-  - Oracle
-  - Mono
-  - Docker
+title: How I managed to connect from Mono in Linux to Oracle
+date: 2014-09-03 00:00:00 Z
+tags:
+- Linux
+- Oracle
+- Mono
+- Docker
 ---
 
 > **TL;DR** [How to connect Mono in Linux to Oracle](http://peter.grman.at/how-to-connect-mono-in-linux-to-oracle/)

@@ -1,9 +1,10 @@
 ---
-title: "Create Windows 8 Metro-like tiles with Bootstrap and AngularJS"
+title: Create Windows 8 Metro-like tiles with Bootstrap and AngularJS
+date: 2014-08-31 00:00:00 Z
 tags:
-  - HTML5
-  - AngularJS
-  - Bootstrap
+- HTML5
+- AngularJS
+- Bootstrap
 ---
 
 There are many JavaScript libraries out there to create layouts with tiles like they are on the Windows 8 start screen. But when you already use Bootstrap and AngularJS, do you really need to add further libraries? - No, you don't.

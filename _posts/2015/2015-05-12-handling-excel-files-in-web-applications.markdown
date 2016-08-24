@@ -1,11 +1,13 @@
 ---
-title: "Handling Excel-Files (*.xls, *.xlsx) in Web Applications ICSharpCode.SharpZipLib.Zip.ZipException: EOF in header"
+title: 'Handling Excel-Files (*.xls, *.xlsx) in Web Applications ICSharpCode.SharpZipLib.Zip.ZipException:
+  EOF in header'
+date: 2015-05-12 00:00:00 Z
 tags:
-  - NPOI
-  - C#
-  - ASP.NET
-  - Excel
-  - SharpZipLib
+- NPOI
+- C#
+- ASP.NET
+- Excel
+- SharpZipLib
 ---
 
 I'm working on a SaaS application in ASP.NET MVC, which takes your [KPIs](http://en.wikipedia.org/wiki/Performance_indicator) and presents them to you in clear overviews and graphs, so you can see at a glance, how your business is doing and what needs to change. This is for [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises), which to a large extent use Excel for these kind of solutions. A large part of the application is, allowing the customers to import the data easily. As most of the data already exist in Excel sheets, we thought it would be the easiest, to just let them upload those.

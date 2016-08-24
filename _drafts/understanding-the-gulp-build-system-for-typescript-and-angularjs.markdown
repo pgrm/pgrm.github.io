@@ -1,9 +1,10 @@
 ---
-title: "Understanding the Gulp Build-System for TypeScript and AngularJS"
+title: Understanding the Gulp Build-System for TypeScript and AngularJS
+date: 2015-11-10 00:00:00 Z
 tags:
-  - TypeScript
-  - AngularJS
-  - Gulp
+- TypeScript
+- AngularJS
+- Gulp
 ---
 
 > Last week, I've published the first part of this series, *[Getting started with Visual Studio Code, Atom or Sublime Text 3]({% post_url /2015/2015-11-03-getting-started-with-typescript-and-angularjs %})*. If you haven't read it yet, you should go and check it out, before you keep on reading here.

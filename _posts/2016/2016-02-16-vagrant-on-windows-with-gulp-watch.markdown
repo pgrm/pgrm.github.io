@@ -1,8 +1,9 @@
 ---
-title: "Vagrant on Windows with gulp-watch and similar file watching tools"
+title: Vagrant on Windows with gulp-watch and similar file watching tools
+date: 2016-02-16 00:00:00 Z
 tags:
-  - Vagrant
-  - gulp-watch
+- Vagrant
+- gulp-watch
 ---
 
 As you might have guessed from my previous posts I love Vagrant and Gulp. I think those tools are

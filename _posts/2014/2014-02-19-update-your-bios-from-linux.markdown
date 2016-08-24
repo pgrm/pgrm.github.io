@@ -1,9 +1,10 @@
 ---
-title: "Update your BIOS from Linux"
-tags: 
-  - Linux
-  - BIOS
-  - DOS
+title: Update your BIOS from Linux
+date: 2014-02-19 00:00:00 Z
+tags:
+- Linux
+- BIOS
+- DOS
 ---
 
 I just struggled for quite some time to update my laptops BIOS (DELL Latitude). I am running only Linux (Ubuntu) as my main OS and didn't want to install Windows just for the sake of updating my BIOS.

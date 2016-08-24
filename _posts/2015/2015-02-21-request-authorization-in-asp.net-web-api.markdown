@@ -1,9 +1,10 @@
 ---
-title: "Request Authorization in ASP.NET Web API"
+title: Request Authorization in ASP.NET Web API
+date: 2015-02-21 00:00:00 Z
 tags:
-  - Asp.Net
-  - WebAPI
-  - Permissions
+- Asp.Net
+- WebAPI
+- Permissions
 ---
 
 When you use ASP.NET Web API as a back-end for your JavaScript heavy Single Page Application (SPA), you might want to check who is performing requests, before you answer with a result. In my case, the different permissions are a bit bulky and I'm storing them in the user's `Session` object. On each request, I check which permissions are necessary and if the user has those permissions. If not, I return a [403 Forbidden](http://en.wikipedia.org/wiki/HTTP_403). To do this, you simply extend the [AuthorizeAttribute](https://msdn.microsoft.com/en-us/library/system.web.http.authorizeattribute%28v=vs.118%29.aspx?f=255&MSPPError=-2147217396) and perform the necessary checks in [IsAuthorized](https://msdn.microsoft.com/en-us/library/system.web.http.authorizeattribute.isauthorized(v=vs.118).aspx). Peace of cake, [how hard can it be](https://www.youtube.com/watch?v=uL0ROeZw7wA)?

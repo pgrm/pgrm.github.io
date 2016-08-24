@@ -1,9 +1,10 @@
 ---
-title: "Implementing a simple hop-count algorithm in Apache Giraph"
-tags: 
-  - Apache-Giraph
-  - graph-processing
-  - hop-count
+title: Implementing a simple hop-count algorithm in Apache Giraph
+date: 2014-05-06 00:00:00 Z
+tags:
+- Apache-Giraph
+- graph-processing
+- hop-count
 ---
 
 Hi, this is my second post after [First steps with Apache-Giraph](http://peter.grman.at/first-steps-with-apache-giraph/) on [Apache Giraph](https://giraph.apache.org/). I'll be writing a little bit about how you can use complex types in messages and in the vertex-state. To learn this I wrote a simple hop-count algorithm, you can find the full source code in a [branch of my Apache Giraph fork on GitHub](https://github.com/pgrm/giraph/blob/simple-hop-computation/giraph-examples/src/main/java/org/apache/giraph/examples).

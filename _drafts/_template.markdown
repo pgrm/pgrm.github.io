@@ -1,7 +1,8 @@
 ---
-title: "The Title ..."
+title: The Title ...
 tags:
-  - tag1
-  - tag2
-  - tag3
+- tag1
+- tag2
+- tag3
 ---
+

@@ -1,3 +1,8 @@
+---
+title: Fixing_open_source_packages_yourself
+date: 2016-08-24 09:21:49.668000000 Z
+---
+
 git structure:
 
 - master brnach is a copy of the original master branch.

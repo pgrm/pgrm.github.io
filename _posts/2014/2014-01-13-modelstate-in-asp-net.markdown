@@ -1,8 +1,9 @@
 ---
-title: "Always check the ModelState"
-tags: 
-  - ASP.NET MVC
-  - ModelState
+title: Always check the ModelState
+date: 2014-01-13 00:00:00 Z
+tags:
+- ASP.NET MVC
+- ModelState
 ---
 
 Ever came across weird behaviour in your ASP.NET Views? - I did already several times, and this is what I've learned:

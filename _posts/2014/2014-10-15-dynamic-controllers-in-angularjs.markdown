@@ -1,7 +1,8 @@
 ---
-title: "Dynamic Controllers in AngularJS"
-tags: 
-  - AngularJS
+title: Dynamic Controllers in AngularJS
+date: 2014-10-15 00:00:00 Z
+tags:
+- AngularJS
 ---
 
 I have an AngularJS application, which offers a set of different tasks. In order not to limit myself in the future, I have one main controller, and sub-controllers for each task. The correct sub-controller is selected based on the task's URL.

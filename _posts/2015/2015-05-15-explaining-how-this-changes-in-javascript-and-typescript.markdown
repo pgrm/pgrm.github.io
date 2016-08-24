@@ -1,7 +1,8 @@
 ---
-title: "Explaining How `this` Changes in JavaScript and TypeScript"
+title: Explaining How `this` Changes in JavaScript and TypeScript
+date: 2015-05-15 00:00:00 Z
 tags:
-  - TypeScript
+- TypeScript
 ---
 
 My girlfriend is learning [Meteor](https://www.meteor.com/) as she already has some knowledge in AngularJS and I personally think TypeScript would make her life easier (eventually) I suggested her, to follow the great [tutorial on AngularJS with Meteor](http://angular-meteor.com/tutorial), but implement it in TypeScript. Her code is on [GitHub](https://github.com/sigita42/angular-meteor-tutorial), in case you want to give it a try yourself and check how the solution could look like.

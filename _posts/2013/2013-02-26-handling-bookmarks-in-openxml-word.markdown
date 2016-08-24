@@ -1,11 +1,11 @@
 ---
-layout: post
 title: Handling Bookmarks in OpenXML Word-Documents
-date: '2013-02-26T02:17:00.001+01:00'
+date: 2013-02-26 01:17:00.001000000 Z
 tags:
 - OpenXML
 - C#
 - ".Net"
+layout: post
 modified_time: '2013-02-26T02:19:29.946+01:00'
 blogger_id: tag:blogger.com,1999:blog-8459046186574607112.post-3710213993555581570
 blogger_orig_url: http://emptycode.blogspot.com/2013/02/handling-bookmarks-in-openxml-word.html

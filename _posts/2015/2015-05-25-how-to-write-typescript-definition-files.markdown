@@ -1,7 +1,8 @@
 ---
-title: "How to write your own TypeScript Definition Files"
+title: How to write your own TypeScript Definition Files
+date: 2015-05-25 00:00:00 Z
 tags:
-  - TypeScript
+- TypeScript
 ---
 
 TypeScript is an amazing language. It makes working with JavaScript just so much easier, at least for me. To be honest, I never really understood or even liked JavaScript. It was a mystery for me, how you can use it to write large applications. But when TypeScript came out - wow, so amazing, almost like C# or Java. During the years, I've of course came to terms with JavaScript, and a solid understanding is necessary, to understand the behavior of TypeScript, just like understanding assembly helps you write better C code.

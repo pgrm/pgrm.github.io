@@ -1,8 +1,9 @@
 ---
-title: "What to Consider when running ASP.NET MVC 4 in Mono"
-tags: 
-  - ASP.NET MVC
-  - Mono
+title: What to Consider when running ASP.NET MVC 4 in Mono
+date: 2014-10-22 00:00:00 Z
+tags:
+- ASP.NET MVC
+- Mono
 ---
 
 I'm fighting for the last 2 days to deploy my ASP.NET MVC 4 application to a Linux VM running Mono again. - Again because it already worked, but in the meanwhile Microsoft updated the MVC 4 library and something broke (read more: [Microsoft Asp.Net MVC Security Update MS14-059 broke my build!](http://blogs.msdn.com/b/webdev/archive/2014/10/16/microsoft-asp-net-mvc-security-update-broke-my-build.aspx))

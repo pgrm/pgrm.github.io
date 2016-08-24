@@ -1,7 +1,8 @@
 ---
-title: "3 Types of Programmers and Why Programming Should Be Easy"
+title: 3 Types of Programmers and Why Programming Should Be Easy
+date: 2015-11-09 00:00:00 Z
 tags:
-  - Other
+- Other
 ---
 
 Few days ago I listened to Scott Hanselman's 500th podcast (congratulations on that), [You don't know JS with Getify (Kyle Simpson)](http://hanselminutes.com/500/you-dont-know-js-with-getify-kyle-simpson).
